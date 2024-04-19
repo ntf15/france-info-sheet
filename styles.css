@@ -1,0 +1,81 @@
+/* CSS Grid for layout */
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+nav a:active {
+    color: #004380;
+}
+
+/* Main content styles */
+main {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Heading styles */
+h2 {
+    color: #007bff;
+}
+
+h3 {
+    color: #0056b3;
+}
+
+/* Paragraph styles */
+p {
+    line-height: 1.6;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
