@@ -71,9 +71,8 @@ footer {
     color: #fff;
     padding: 20px;
 }
-/* Image styles */
 img {
-    max-width: 100%;
+    max-width: 80%; /* Adjust the maximum width as needed */
     height: auto;
     display: block;
     margin: 0 auto;
