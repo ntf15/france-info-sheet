@@ -1,19 +1,15 @@
-/* CSS Grid for layout */
+/* Body styles */
 body {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
-    gap: 20px;
-    padding: 20px;
-    background-color: #fff; /* White background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
 /* Header styles */
 header {
-    text-align: center;
-    background-color: #0056b3; /* Dark blue */
-    color: white;
+    background-color: #0055a4; /* Dark blue */
+    color: #fff;
     padding: 20px;
 }
 
@@ -33,7 +29,7 @@ nav li {
 }
 
 nav a {
-    color: #0056b3; /* Dark blue */
+    color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -43,7 +39,7 @@ nav a:hover {
 }
 
 nav a:active {
-    color: #fff; /* White */
+    color: #fff;
 }
 
 /* Main content styles */
@@ -51,17 +47,18 @@ main {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 20px;
 }
 
 section {
-    background-color: #fff; /* White background */
+    background-color: #fff;
     padding: 20px;
     border-radius: 10px;
 }
 
 /* Heading styles */
 h2 {
-    color: #0056b3; /* Dark blue */
+    color: #0055a4; /* Dark blue */
 }
 
 h3 {
@@ -76,7 +73,8 @@ p {
 /* Footer styles */
 footer {
     text-align: center;
-    background-color: #0056b3; /* Dark blue */
-    color: white;
+    background-color: #0055a4; /* Dark blue */
+    color: #fff;
     padding: 20px;
 }
+
