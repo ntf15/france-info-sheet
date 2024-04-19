@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
@@ -36,7 +36,7 @@ nav a:hover {
 }
 
 nav a:active {
-    color: #fff;
+    color: #ffffff;
 }
 
 main {
@@ -50,6 +50,10 @@ section {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif; 
 }
 
 h2 {
@@ -81,5 +85,4 @@ img {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 
