@@ -43,7 +43,7 @@ nav a:active {
 main {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted to grid-template-rows */
     padding: 20px;
     height: 100vh; /* Set height to 100% of viewport height */
     overflow-y: auto; /* Enable vertical scrolling */
@@ -85,4 +85,5 @@ img {
     margin-bottom: 20px;
     border: 2px solid #0055a4; 
 } 
+
  
