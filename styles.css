@@ -12,7 +12,6 @@ header {
     padding: 20px;
 }
 
-
 nav {
     text-align: center;
 }
@@ -41,7 +40,6 @@ nav a:active {
     color: #fff;
 }
 
-
 main {
     display: grid;
     gap: 20px;
@@ -55,7 +53,6 @@ section {
     border-radius: 10px;
 }
 
-
 h2 {
     color: #0055a4; /* Dark blue */
 }
@@ -64,11 +61,9 @@ h3 {
     color: #ff0000; /* Red */
 }
 
-
 p {
     line-height: 1.6;
 }
-
 
 footer {
     text-align: center;
