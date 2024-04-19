@@ -5,6 +5,10 @@ body {
     background-color: #f0f0f0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif; 
+}
+
 header {
     background-color: #0055a4; 
     color: #fff;
@@ -42,7 +46,6 @@ nav a:active {
 main {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 20px;
 }
 
@@ -50,10 +53,7 @@ section {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Georgia', serif; 
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -76,7 +76,6 @@ footer {
     color: #fff;
     padding: 20px;
 }
-
 img {
     max-width: 100%; 
     height: auto;
@@ -85,4 +84,5 @@ img {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 
